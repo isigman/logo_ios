@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A10543C8204BBC16006B0C25 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10543C7204BBC16006B0C25 /* FirstViewController.swift */; };
+		A1389F44204B39B000B3514B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A1389F43204B39B000B3514B /* Podfile */; };
 		A16407F0204A724700A14243 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16407EF204A724700A14243 /* AppDelegate.swift */; };
 		A16407F2204A724700A14243 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16407F1204A724700A14243 /* ViewController.swift */; };
 		A16407F5204A724700A14243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16407F3204A724700A14243 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		A16407FA204A724700A14243 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16407F8204A724700A14243 /* LaunchScreen.storyboard */; };
 		A1640805204A724700A14243 /* LoGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1640804204A724700A14243 /* LoGoTests.swift */; };
 		A1640810204A724700A14243 /* LoGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A164080F204A724700A14243 /* LoGoUITests.swift */; };
+		A164081E204A7D6500A14243 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A164081D204A7D6500A14243 /* InfoViewController.swift */; };
+		B557693519949F93BCE559D3 /* libPods-LoGo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B79D8D6EFBED181982B9900B /* libPods-LoGo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24A91326725ADCBC998E0EE5 /* Pods-LoGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoGo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoGo/Pods-LoGo.release.xcconfig"; sourceTree = "<group>"; };
+		426BF240DDA96AC9B41BEABA /* Pods-LoGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoGo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoGo/Pods-LoGo.debug.xcconfig"; sourceTree = "<group>"; };
+		A10543C7204BBC16006B0C25 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		A1389F43204B39B000B3514B /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		A16407EC204A724600A14243 /* LoGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A16407EF204A724700A14243 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A16407F1204A724700A14243 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,9 @@
 		A164080B204A724700A14243 /* LoGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A164080F204A724700A14243 /* LoGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoGoUITests.swift; sourceTree = "<group>"; };
 		A1640811204A724700A14243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A164081D204A7D6500A14243 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		A1AC5B38204B294F00CED7CB /* LoGo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LoGo.entitlements; sourceTree = "<group>"; };
+		B79D8D6EFBED181982B9900B /* libPods-LoGo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoGo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B557693519949F93BCE559D3 /* libPods-LoGo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +86,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39CA5BFFBECAE961B3B490AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B79D8D6EFBED181982B9900B /* libPods-LoGo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A16407E3204A724600A14243 = {
 			isa = PBXGroup;
 			children = (
+				A1389F43204B39B000B3514B /* Podfile */,
 				A16407EE204A724600A14243 /* LoGo */,
 				A1640803204A724700A14243 /* LoGoTests */,
 				A164080E204A724700A14243 /* LoGoUITests */,
 				A16407ED204A724600A14243 /* Products */,
+				C1C2EF6F28952C6F0EBA43CE /* Pods */,
+				39CA5BFFBECAE961B3B490AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +120,12 @@
 		A16407EE204A724600A14243 /* LoGo */ = {
 			isa = PBXGroup;
 			children = (
+				A1AC5B38204B294F00CED7CB /* LoGo.entitlements */,
 				A16407EF204A724700A14243 /* AppDelegate.swift */,
 				A16407F1204A724700A14243 /* ViewController.swift */,
 				A16407F3204A724700A14243 /* Main.storyboard */,
+				A10543C7204BBC16006B0C25 /* FirstViewController.swift */,
+				A164081D204A7D6500A14243 /* InfoViewController.swift */,
 				A16407F6204A724700A14243 /* Assets.xcassets */,
 				A16407F8204A724700A14243 /* LaunchScreen.storyboard */,
 				A16407FB204A724700A14243 /* Info.plist */,
@@ -125,6 +151,15 @@
 			path = LoGoUITests;
 			sourceTree = "<group>";
 		};
+		C1C2EF6F28952C6F0EBA43CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				426BF240DDA96AC9B41BEABA /* Pods-LoGo.debug.xcconfig */,
+				24A91326725ADCBC998E0EE5 /* Pods-LoGo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1640814204A724700A14243 /* Build configuration list for PBXNativeTarget "LoGo" */;
 			buildPhases = (
+				926B69A3A7E45865562AB7B8 /* [CP] Check Pods Manifest.lock */,
 				A16407E8204A724600A14243 /* Sources */,
 				A16407E9204A724600A14243 /* Frameworks */,
 				A16407EA204A724600A14243 /* Resources */,
+				FF6D71606547D81AE34533AA /* [CP] Embed Pods Frameworks */,
+				149EBE19A33F4401E32EA3BE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +232,11 @@
 					A16407EB204A724600A14243 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					A16407FF204A724700A14243 = {
 						CreatedOnToolsVersion = 9.2;
@@ -234,6 +277,7 @@
 			files = (
 				A16407FA204A724700A14243 /* LaunchScreen.storyboard in Resources */,
 				A16407F7204A724700A14243 /* Assets.xcassets in Resources */,
+				A1389F44204B39B000B3514B /* Podfile in Resources */,
 				A16407F5204A724700A14243 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +298,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		149EBE19A33F4401E32EA3BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LoGo/Pods-LoGo-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoGo/Pods-LoGo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		926B69A3A7E45865562AB7B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoGo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF6D71606547D81AE34533AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoGo/Pods-LoGo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A16407E8204A724600A14243 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A16407F2204A724700A14243 /* ViewController.swift in Sources */,
+				A164081E204A7D6500A14243 /* InfoViewController.swift in Sources */,
 				A16407F0204A724700A14243 /* AppDelegate.swift in Sources */,
+				A10543C8204BBC16006B0C25 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,9 +526,12 @@
 		};
 		A1640815204A724700A14243 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 426BF240DDA96AC9B41BEABA /* Pods-LoGo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LoGo/LoGo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75B6L7HJB7;
 				INFOPLIST_FILE = LoGo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = irasigman.LoGo;
@@ -438,9 +543,12 @@
 		};
 		A1640816204A724700A14243 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24A91326725ADCBC998E0EE5 /* Pods-LoGo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LoGo/LoGo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75B6L7HJB7;
 				INFOPLIST_FILE = LoGo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = irasigman.LoGo;
